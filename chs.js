@@ -1439,6 +1439,7 @@ var cnRegReplace = new Map([
     [/^([\d\.]+)(.+)\/s$/, '$1$2/秒'],
     [/^x([\d\.]+) per craft$/, 'x$1 每次制作'],
     [/^x([\d\.]+) multiplier$/, 'x$1 乘数'],
+    [/^x([\d\.]+) strength$/, 'x$1 力量'],
     [/^\+([\d\.]+)\% global speed per level$/, '每级 +$1% 全局速度'],
     [/^\+([\d\.]+)\% global yield per level$/, '每级 +$1% 全局生产'],
     [/^\+([\d\.]+)\% energy core drops per level$/, '每级 +$1% 能量和谐掉落'],
